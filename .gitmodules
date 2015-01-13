@@ -19,9 +19,11 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = https://github.com/guns/vim-clojure-static.git
+  ignore = dirty
 [submodule "bundle/vim-sexp"]
 	path = bundle/vim-sexp
-	url = https://github.com/guns/vim-sexp.git
+  url = https://github.com/guns/vim-sexp.git
+  ignore = dirty
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
@@ -40,6 +42,7 @@
 [submodule "bundle/vim-leiningen"]
 	path = bundle/vim-leiningen
 	url = https://github.com/tpope/vim-leiningen.git
+  ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
@@ -49,6 +52,7 @@
 [submodule "bundle/vis.vim"]
 	path = bundle/vis.vim
 	url = https://github.com/vim-scripts/vis.git
+  ignore = dirty
 [submodule "bundle/ctlp.vim"]
 	path = bundle/ctlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
