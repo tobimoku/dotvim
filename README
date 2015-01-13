@@ -6,4 +6,10 @@ Create symlinks:
 
   ln -s ~/.vim/vimrc ~/.vimrc
 
+Initialize and update submodules
 
+ cd ~/.vim
+ git submodule init
+ git submodule update
+
+ I followed the excellent instructions at  http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/  to get this far. 
