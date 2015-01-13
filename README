@@ -12,4 +12,16 @@ Initialize and update submodules
  git submodule init
  git submodule update
 
- I followed the excellent instructions at  http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/  to get this far. 
+Upgrading a plugin bundle
+
+cd ~/.vim/bundle/plugin_to_upgrade
+git pull origin master
+
+Upgrading all bundle plugins
+
+git submodule foreach git pull origin master
+
+
+ I followed the excellent instructions at 
+ http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/  
+ to get this far. 
