@@ -39,3 +39,5 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+"Toggle line numbers on and off
+:nmap <C-N><C-N> :set invnumber<CR>
