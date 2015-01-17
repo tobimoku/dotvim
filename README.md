@@ -1,4 +1,4 @@
-Installation:
+<strong>Installation:
 
   git clone http://github.com/tobimoku/dotvim.git ~/.vim
 
@@ -6,7 +6,7 @@ Create symlinks:
 
   ln -s ~/.vim/vimrc ~/.vimrc
 
-Initialize and update submodules:
+<strong>Initialize and update submodules:
 
   cd ~/.vim  
 
@@ -14,23 +14,23 @@ Initialize and update submodules:
 
   git submodule update
 
-Upgrading a plugin bundle:
+<strong>Upgrading a plugin bundle:
 
   cd ~/.vim/bundle/plugin_to_upgrade  
 
   git pull origin master
 
-Upgrading all bundle plugins:
+<strong>Upgrading all bundle plugins:
 
   git submodule foreach git pull origin master
 
 
-Adding module to local vim config:
+<strong>Adding module to local vim config:
   
     git submodule add http://github.com/somedirectory/someplugin.git bundle/someplugin
 
 
-How I got this:
+<strong>How I got this:
 
     I followed the excellent instructions at  http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/  
 
