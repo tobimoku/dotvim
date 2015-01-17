@@ -9,15 +9,12 @@
 <strong>Initialize and update submodules:
 
     cd ~/.vim  
-
     git submodule init  
-
     git submodule update
 
 <strong>Upgrading a plugin bundle:
 
     cd ~/.vim/bundle/plugin_to_upgrade  
-
     git pull origin master
 
 <strong>Upgrading all bundle plugins:
