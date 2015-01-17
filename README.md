@@ -1,28 +1,28 @@
 <strong>Installation:
 
-  git clone http://github.com/tobimoku/dotvim.git ~/.vim
+    git clone http://github.com/tobimoku/dotvim.git ~/.vim
 
 <strong>Create symlinks:
 
-  ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
 
 <strong>Initialize and update submodules:
 
-  cd ~/.vim  
+    cd ~/.vim  
 
-  git submodule init  
+    git submodule init  
 
-  git submodule update
+    git submodule update
 
 <strong>Upgrading a plugin bundle:
 
-  cd ~/.vim/bundle/plugin_to_upgrade  
+    cd ~/.vim/bundle/plugin_to_upgrade  
 
-  git pull origin master
+    git pull origin master
 
 <strong>Upgrading all bundle plugins:
 
-  git submodule foreach git pull origin master
+    git submodule foreach git pull origin master
 
 
 <strong>Adding module to local vim config:
