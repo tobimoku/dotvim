@@ -16,7 +16,8 @@ Initialize and update submodules:
 
 Upgrading a plugin bundle:
 
-  cd ~/.vim/bundle/plugin_to_upgrade
+  cd ~/.vim/bundle/plugin_to_upgrade  
+
   git pull origin master
 
 Upgrading all bundle plugins:
