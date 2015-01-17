@@ -15,6 +15,11 @@ colors Tomorrow-Night-Bright
 let NERDTreeShowHidden=1
 map <F8> :NERDTreeToggle<CR>
 
+"Move between NERDTree Tabs
+map  <C-l> :tabn<CR>
+map  <C-h> :tabp<CR>
+map  <C-n> :tabnew<CR>
+
 "Visual Mode Addons from Damien Conway Oscon 2013
 vmap <expr> <S-LEFT>  DVB_Drag('left')
 vmap <expr> <S-RIGHT> DVB_Drag('right')
