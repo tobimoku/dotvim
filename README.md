@@ -32,5 +32,5 @@
 
 <strong>How I got this:
 
-    I followed the excellent instructions at [VimCast](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/) 
+  I followed the excellent instructions at [VimCast](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/) 
 
