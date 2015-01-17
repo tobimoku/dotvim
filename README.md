@@ -8,8 +8,10 @@ Create symlinks:
 
 Initialize and update submodules:
 
-  cd ~/.vim
-  git submodule init
+  cd ~/.vim  
+
+  git submodule init  
+
   git submodule update
 
 Upgrading a plugin bundle:
