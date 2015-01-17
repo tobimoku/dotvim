@@ -2,7 +2,7 @@
 
   git clone http://github.com/tobimoku/dotvim.git ~/.vim
 
-Create symlinks:
+<strong>Create symlinks:
 
   ln -s ~/.vim/vimrc ~/.vimrc
 
@@ -32,5 +32,5 @@ Create symlinks:
 
 <strong>How I got this:
 
-    I followed the excellent instructions at  http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/  
+    I followed the excellent instructions at [VimCast](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/) 
 
