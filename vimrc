@@ -9,12 +9,14 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 colors Tomorrow-Night-Bright
+"map leader to ,
+let mapleader=","
 "The next two line open Nerdtree when no file is selected at startup
 "autocmd StdinReadPre * let s:std_in=1
 "autocmd vimenter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 let NERDTreeShowHidden=1
 map <F8> :NERDTreeToggle<CR>
-
+let NERDTreeHijackNetrw=1
 "Move between NERDTree Tabs
 map  <C-l> :tabn<CR>
 map  <C-h> :tabp<CR>
@@ -38,7 +40,7 @@ vnoremap <C-V> v
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
+let g:syntastic_enable_signs = 1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1

@@ -92,3 +92,9 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-classpath"]
+	path = bundle/vim-classpath
+	url = https://github.com/tpope/vim-classpath.git
+[submodule "bundle/vim-ri"]
+	path = bundle/vim-ri
+	url = https://github.com/danchoi/ri.vim.git
