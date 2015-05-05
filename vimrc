@@ -48,3 +48,13 @@ let g:syntastic_check_on_wq = 0
 
 "Toggle line numbers on and off
 :nmap <C-N><C-N> :set invnumber<CR>
+
+"enabled airline extensions
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme='lucius'
+let g:airline_powerline_fonts = 1
+let g:bufferline_echo = 0
+let g:airline#extensions#syntastic#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
+set noshowmode
+
