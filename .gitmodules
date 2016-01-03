@@ -98,3 +98,9 @@
 [submodule "bundle/vim-ri"]
 	path = bundle/vim-ri
 	url = https://github.com/danchoi/ri.vim.git
+[submodule "elm.vim"]
+	path = elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git
+[submodule "bundle/elm.vim"]
+	path = bundle/elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git
